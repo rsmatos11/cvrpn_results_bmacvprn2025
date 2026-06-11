@@ -42,8 +42,11 @@ a:hover {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-weight: bold;
-    background: #fafafa; /* Um leve fundo cinza para destacar o bloco do conjunto */
-    padding: 10px 5px;
+    font-size: 13px; /* Fonte ligeiramente menor para ajudar a afinar */
+    background: #fafafa; 
+    padding: 10px 2px; /* Espaço quase zero nas laterais */
+    width: 1px; /* Força a coluna a fechar até o limite do texto */
+    white-space: nowrap; /* Garante que o texto não quebre em várias linhas */
 }
 </style>
 </head>
