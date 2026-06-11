@@ -50,8 +50,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Classe especial para deixar o nome do conjunto na vertical */
-/* .txt-vertical {
+/*Classe especial para deixar o nome do conjunto na vertical */
+.txt-vertical {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-weight: bold;
@@ -60,23 +60,6 @@ a:hover {
     padding: 10px 4px;
     width: 1px;
     white-space: nowrap;
-} */
-/* Classe especial corrigida para deixar o nome do conjunto na vertical */
-/* Classe especial ajustada para manter estreito e com leitura de baixo para cima */
-/* Alternativa caso o sideways-lr não mude a orientação no seu navegador */
-.txt-vertical {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-weight: bold;
-    font-size: 13px;
-    background: #fafafa; 
-    padding: 10px 4px;
-    white-space: nowrap;
-    width: 1px;
-    
-    /* Força o navegador a desenhar a célula e suas bordas no lugar correto */
-    position: relative;
-    left: -0.5px; 
 }
 </style>
 </head>
