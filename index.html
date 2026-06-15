@@ -61,31 +61,14 @@ a:hover {
     width: 1px;
     white-space: nowrap;
 } */
-/* .txt-vertical {
+.txt-vertical {
     writing-mode: vertical-rl;
     font-weight: bold;
     font-size: 13px;
     background: #fafafa;
     padding: 10px 6px;
     text-align: center;
-} */
-/* Isso controla a CÉLULA (o fundo cinza, as bordas, o tamanho). 
-   Ela continua reta, intacta e sem nenhum rotate! */
-.txt-vertical {
-    font-weight: bold;
-    font-size: 13px;
-    background: #fafafa;
-    padding: 10px 6px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.txt-vertical span {
-    writing-mode: vertical-lr; 
-    transform: rotate(180deg);  /* <--- O giro só acontece aqui! */
-}    
 </style>
 </head>
 
@@ -113,10 +96,7 @@ a:hover {
 
     <!-- Set A -->
     <tr>
-        <!-- <td rowspan="27" class="txt-vertical">Set A</td> -->
-        <td rowspan="27" class="txt-vertical">
-            <span>Set E</span>
-        </td>
+        <td rowspan="27" class="txt-vertical">Set A</td>
         <td><a href="Instance/Set_A/A-n32-k5.txt">A-n32-k5.dat</a></td>
         <td>756.998</td>
         <td><a href="Solutions/Set_A/Files/A-n32-k5.txt">A-n32-k5.txt</a></td>
