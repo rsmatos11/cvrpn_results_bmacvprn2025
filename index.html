@@ -70,7 +70,7 @@ a:hover {
     padding: 10px 6px;
     text-align: center;
 }     */
-.txt-vertical {
+/* .txt-vertical {
     writing-mode: vertical-rl; /* Mantém o padrão da imagem que deu certo */
     font-weight: bold;
     font-size: 13px;
@@ -81,6 +81,19 @@ a:hover {
     /* O SEGREDO ESTÁ AQUI: */
     transform: rotate(180deg);
     transform-origin: center center; /* Força o navegador a girar o texto no próprio eixo, sem tirar a célula do lugar */
+}     */
+.txt-vertical {
+    writing-mode: vertical-rl;
+    font-weight: bold;
+    font-size: 13px;
+    background: #fafafa;
+    padding: 6px 6px;
+    text-align: center;
+
+    transform: rotate(180deg);
+    transform-origin: center center;
+
+    white-space: nowrap;
 }    
 </style>
 </head>
