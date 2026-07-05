@@ -12,7 +12,7 @@ STRUCTURE
 
 The directory is organized as follows:
 
-- codes/                  : Contains the complete source codes of the proposed 
+- Codes/                  : Contains the complete source codes of the proposed 
                             metaheuristic and optimization algorithms.
-- instances-and-solutions/: Contains the small-, medium-, and large-scale 
+- Instances-and-Solutions/: Contains the small-, medium-, and large-scale 
                             benchmark problem instances and computational results.
